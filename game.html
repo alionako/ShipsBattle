@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>GAME</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	<script src="jquery/jquery-1.9.1.js"></script>
+	<script src="jquery/ui/jquery.ui.core.js"></script>
+	<script src="jquery/ui/jquery.ui.widget.js"></script>
+	<script src="jquery/ui/jquery.ui.mouse.js"></script>
+	<script src="jquery/ui/jquery.ui.draggable.js"></script>
+	<script src="jquery/ui/jquery.ui.droppable.js"></script>
+	<script type="text/javascript" src="matrix.js"></script>
+	<script type="text/javascript" src="shipsTable.js"></script>
+
+
+ <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+ <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+ <script type="text/javascript" src="main.js"></script>
+	<script>
+
+	
+  </script>
+
+</head>
+<body>
+<div id="gamediv">
+	<h1 class="center">Ships Battle</h1>
+	<p class="instructions">Drag and drop ships on the left field. Use "R" key to rotate them.</p>
+	<div id="header">
+	<table id="ships">
+		<tr>
+			<td id="td4">
+				<img src="img/4.png" id="img_4"></img>
+			</td>
+			<td id="td3">
+				<img src="img/3.png" id="img_3"></img>
+			</td>
+			<td id="td2">
+				<img src="img/2.png" id="img_2"></img>
+			</td>
+			<td id="td1">
+				<img src="img/1.png" id="img_1"></img>
+			</td>
+		</tr>
+		<tr>
+			<td id="textId4">
+				1 ships
+			</td>
+			<td id="textId3">
+				2 ships
+			</td>
+			<td id="textId2">
+				3 ships
+			</td>
+			<td id="textId1">
+				4 ships
+			</td>
+		</tr>
+		<tr>
+			<td>
+				4 cells
+			</td>
+			<td>
+				3 cells
+			</td>
+			<td>
+				2 cells
+			</td>
+			<td>
+				1 cell
+			</td>
+		</tr>
+	</table>
+		<div class="float-right">
+			<table>
+			<tr>
+				<td id='gEnemyCounterId'><br/></td>
+			</tr>
+			<tr>
+				<td id='gOurCounterId'></td>
+			</tr>
+			</table>
+		</div>
+	</div>
+	<div id="main">
+		<div id="ourField">
+	  </div>
+	  <div id="enemyField">
+	  </div>
+		<div id="footer">
+			<div>
+				<img src="img/rand.png" id="randomButtonId" height="50" width="50" title="Random"</img><br/>
+				Random<br/>
+				placement
+			</div>
+		</div>
+	</div>
+	<br/>
+</div>
+</body>
+</html>

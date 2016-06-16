@@ -1,0 +1,202 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.instructions
+{
+	text-align: center;
+	font-color: grey;
+}
+
+#gamediv
+{
+	width: 1200px;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#header
+{
+	position: relative;
+	z-index: 2;
+	height: 100px;
+
+}
+
+#main
+{
+	height: 550px;
+	float: left;
+	width: 100%;
+}
+
+#middle
+{
+	text-align: right;
+}
+
+#ships
+{
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+#ships img
+{
+	z-index: 5;
+	width: 50px;
+	height: 50px;
+}
+
+#ships td
+{
+	text-align: center;
+}
+
+#ships .shipcount
+{
+	text-align: right;
+	font-size: 9px;
+}
+
+#a
+{
+	font-size: 22px;
+	color: black;
+}
+
+#footer
+{
+	display: block;
+	float: none;
+	text-align: center;
+}
+
+#ourField
+{
+	float: left;
+	display: inline;
+	width: 500px;
+	height: 500px;
+	border-top: 1px dashed #999;
+	border-left: 1px dashed #999;
+}
+
+#enemyField
+{
+	float: right;
+	display: inline;
+	width: 500px;
+	height: 500px;
+	border-top: 1px dashed #999;
+	border-left: 1px dashed #999;
+}
+
+#ourField div
+{
+	float: left;
+	width:48px;
+	height:48px;
+	border-bottom: 1px dashed #999;
+	border-right: 1px dashed #999;
+}
+
+#enemyField div
+{
+	float: left;
+	width:48px;
+	height:48px;
+	border-bottom: 1px dashed #999;
+	border-right: 1px dashed #999;
+}
+
+.cell
+{
+	float: left;
+	width: 49px;
+	height: 49px;
+	border-bottom: 1px dashed #999;
+	border-right: 1px dashed #999;
+}
+
+#ourField .bomb
+{
+	background-image: url('img/1.png');
+	background-size: 48px 48px;
+}
+
+#ourField .ship
+{
+	background-image: url('img/2.png');
+	background-size: 48px 48px;
+}
+
+#ourField .submarine
+{
+	background-image: url('img/3.png');
+	background-size: 48px 48px;
+}
+
+#ourField .titanic
+{
+	background-image: url('img/4.png');
+	background-size: 48px 48px;
+}
+
+#enemyField .bomb
+{
+	background-size: 48px 48px;
+}
+
+#enemyField .ship
+{
+	background-size: 48px 48px;
+}
+
+#enemyField .submarine
+{
+	background-size: 48px 48px;
+}
+
+#enemyField .titanic
+{
+	background-size: 48px 48px;
+}
+
+.center {
+	text-align: center;
+}
+
+.selected
+{
+	background-color: #CCFFFF
+}
+
+.unavailable
+{
+	background-color: #FFCCCC
+}
+
+.float-right
+{
+	float: right;
+}
+
+.left
+{
+	text-align: left;
+}
+
+.opened
+{
+	background-color: #CCFFFF
+}
+
+.hit
+{
+	background-color: #FFCCCC
+}
